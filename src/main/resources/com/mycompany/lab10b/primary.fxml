@@ -120,7 +120,7 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
             <items>
-              <MenuItem id="aboutMenu" mnemonicParsing="false" text="About" />
+                <MenuItem id="aboutMenu" mnemonicParsing="false" onAction="#showAbout" text="About" />
             </items>
           </Menu>
         </menus>
